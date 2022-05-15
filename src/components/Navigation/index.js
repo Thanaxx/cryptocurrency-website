@@ -5,15 +5,12 @@ import Link from '@material-ui/core/Link'
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import AccessibilityIcon from '@material-ui/icons/Accessibility';
 import {ThemeProvider} from '@material-ui/core/styles'
 import TopBar from '../TopBar';
 
 function Nav() {
 
   const classes = useStyles();
-  const preventDefault = (event) => event.preventDefault();
-
   const themes = useTheme();
 
   //media query
